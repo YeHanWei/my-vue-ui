@@ -2,11 +2,11 @@ import Vue from 'vue'
 
 // 导入组件
 import FiguresPlay from './figures-play'
-import MouseFollow from './mouse-follow'
+import FollowMouse from './follow-mouse'
 
 const Components = {
     FiguresPlay,
-    MouseFollow
+    FollowMouse
 }
 
 // 自动注册组件

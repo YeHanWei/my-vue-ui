@@ -32,7 +32,7 @@ import '@heavy_leaf/my-vue-ui/my-vue-ui.css'
 |auto|Boolean|是否自动播放，true：自动播放；false：禁止自动播放|true|
 |delay|Number|自动播放的时间间隔，单位ms，图片切换效果的时间为1000ms，设置该值时应大于1000ms|2000|
 
-## 鼠标跟随组件
+## 鼠标跟随组件（follow-mouse）
 ### 使用
 ```
 <template>
