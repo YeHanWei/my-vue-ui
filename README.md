@@ -3,10 +3,12 @@
 npm install --save @heavy_leaf/my-vue-ui 
 ```
 
-## 导入包
+## 在项目中使用
 ```
-import '@heavy_leaf/my-vue-ui'
-import '@heavy_leaf/my-vue-ui/my-vue-ui.css'
+// 导入包
+import MyVueUI from '@heavy_leaf/my-vue-ui'
+// 注册插件
+Vue.use(MyVueUI)
 ```
 
 # 组件

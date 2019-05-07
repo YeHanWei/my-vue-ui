@@ -6,15 +6,9 @@
 </template>
 
 <script>
-import FiguresPlay from './components/figures-play'
-import FollowMouse from './components/follow-mouse'
 
 export default {
   name: 'app',
-  components: {
-    FiguresPlay,
-    FollowMouse
-  },
   data() {
     return {
       images: [

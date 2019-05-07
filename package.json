@@ -1,18 +1,11 @@
 {
   "name": "@heavy_leaf/my-vue-ui",
-  "version": "0.1.5",
-  "main": "./dist/my-vue-ui.comment.js",
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
+  "version": "0.1.61",
+  "main": "./dist/my-vue-ui.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name my-vue-ui ./src/components/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name my-vue-ui ./package/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -51,5 +44,16 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "```\r npm install --save @heavy_leaf/my-vue-ui \r ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeHanWei/my-vue-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeHanWei/my-vue-ui/issues"
+  },
+  "homepage": "https://github.com/YeHanWei/my-vue-ui#readme"
 }
