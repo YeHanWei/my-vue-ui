@@ -22,7 +22,7 @@
 <script>
 
 export default {
-    name: 'figures-play',
+    name: 'my-figures-play',
     props: {
         images: Array,
         auto: {

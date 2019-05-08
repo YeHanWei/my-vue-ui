@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'follow-mouse',
+    name: 'my-follow-mouse',
     props: {
         amount: {
             type: Number,

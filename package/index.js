@@ -1,10 +1,12 @@
 
 // 导入单个组件
-import FiguresPlay from './figures-play/index'
-import FollowMouse from './follow-mouse/index'
+import CenterContent from './my-center-content/index'
+import FiguresPlay from './my-figures-play/index'
+import FollowMouse from './my-follow-mouse/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
+    CenterContent,
     FiguresPlay,
     FollowMouse
 ]
@@ -27,6 +29,7 @@ export default {
     // 导出的对象必须具备一个 install 方法
     install,
     // 组件列表
+    CenterContent,
     FiguresPlay,
     FollowMouse
 }
