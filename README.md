@@ -19,3 +19,5 @@ Vue.use(MyVueUI)
 <a href="./doc/my-follow-mouse.md">鼠标跟随组件（my-follow-mouse）</a>
 
 <a href="./doc/my-center-content.md">水平垂直居中容器（my-center-content）</a>
+
+<a href="./doc/my-click-pop-text.md">鼠标点击弹出文字（my-click-pop-text）</a>
