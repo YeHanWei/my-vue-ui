@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'switch',
+    name: 'iswitch',
     data() {
         return {
             value: false

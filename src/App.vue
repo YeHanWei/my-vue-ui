@@ -15,11 +15,6 @@ export default {
       textArray: ['hello', 'hi', 'good', 'nice', 'beautiful'],
       value: true
     }
-  },
-  watch: {
-    value: function(newVal, oldVal) {
-      console.log(oldVal + ' to ' + newVal)
-    }
   }
 }
 </script>

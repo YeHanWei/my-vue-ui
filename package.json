@@ -1,6 +1,6 @@
 {
   "name": "@heavy_leaf/my-vue-ui",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "main": "./dist/my-vue-ui.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",

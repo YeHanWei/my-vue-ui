@@ -5,6 +5,7 @@ import FiguresPlay from './my-figures-play/index'
 import FollowMouse from './my-follow-mouse/index'
 import ClickPopText from './my-click-pop-text/index'
 import Switch from './my-switch/index'
+import NumberBox from './my-number-box-btn/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
@@ -12,6 +13,7 @@ const components = [
     ClickPopText,
     FiguresPlay,
     FollowMouse,
+    NumberBox,
     Switch
 ]
 
@@ -37,5 +39,6 @@ export default {
     ClickPopText,
     FiguresPlay,
     FollowMouse,
+    NumberBox,
     Switch
 }
