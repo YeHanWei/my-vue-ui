@@ -23,3 +23,5 @@ Vue.use(MyVueUI)
 <a href="./doc/my-click-pop-text.md">鼠标点击弹出文字（my-click-pop-text）</a>
 
 <a href="./doc/my-switch.md">开关按钮（my-switch）</a>
+
+<a href="./doc/my-number-box-button.md">加减数字框按钮（my-number-box-btn）</a>
