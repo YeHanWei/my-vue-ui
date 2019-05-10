@@ -3,7 +3,6 @@
 src/
 public/
 node_modules/
-doc/
 
 // 忽略具体文件
 LICENSE

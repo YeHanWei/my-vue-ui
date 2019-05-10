@@ -3,14 +3,16 @@
 import CenterContent from './my-center-content/index'
 import FiguresPlay from './my-figures-play/index'
 import FollowMouse from './my-follow-mouse/index'
-import ClickPopText from './my-click-pop-text'
+import ClickPopText from './my-click-pop-text/index'
+import Switch from './my-switch/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
     CenterContent,
     ClickPopText,
     FiguresPlay,
-    FollowMouse
+    FollowMouse,
+    Switch
 ]
 
 // 定义 install 方法
@@ -34,5 +36,6 @@ export default {
     CenterContent,
     ClickPopText,
     FiguresPlay,
-    FollowMouse
+    FollowMouse,
+    Switch
 }
