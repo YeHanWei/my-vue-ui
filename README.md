@@ -25,3 +25,5 @@ Vue.use(MyVueUI)
 <a href="./doc/my-switch.md">开关按钮（my-switch）</a>
 
 <a href="./doc/my-panel.md">面板（my-panel）</a>
+
+<a href="./doc/my-number-box-button.md">加减数字框按钮（my-number-box-btn）</a>
