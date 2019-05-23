@@ -7,6 +7,7 @@ import ClickPopText from './my-click-pop-text/index'
 import Switch from './my-switch/index'
 import NumberBox from './my-number-box-btn/index'
 import Panel from './my-panel/index'
+import Clock from './my-clock'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
@@ -16,7 +17,8 @@ const components = [
     FollowMouse,
     NumberBox,
     Panel,
-    Switch
+    Switch,
+    Clock
 ]
 
 // 定义 install 方法
@@ -43,5 +45,6 @@ export default {
     FollowMouse,
     NumberBox,
     Panel,
-    Switch
+    Switch,
+    Clock
 }

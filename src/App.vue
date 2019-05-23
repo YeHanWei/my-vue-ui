@@ -2,20 +2,14 @@
   <div id="app">
     <router-view/>
     <my-follow-mouse :amount="10" :sizeInterval="1" :timeInterval="40" :minSize="10"></my-follow-mouse>
-    <my-click-pop-text :textArray="textArray"></my-click-pop-text>
+    <my-click-pop-text></my-click-pop-text>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'app',
-  data() {
-    return {
-      textArray: ['hello', 'hi', 'good', 'nice', 'beautiful'],
-      value: true
-    }
-  }
+  name: 'app'
 }
 </script>
 

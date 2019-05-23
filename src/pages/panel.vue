@@ -4,7 +4,7 @@
         :bodyBackgroundColor="'blue'" 
         :borderRadius="'2px'"
         :collapse="true"
-        :canCollapse="false">
+        :canCollapse="true">
         <template v-slot:header>
             <span>title</span>
         </template>

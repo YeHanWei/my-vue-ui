@@ -27,3 +27,5 @@ Vue.use(MyVueUI)
 <a href="./doc/my-panel.md">面板（my-panel）</a>
 
 <a href="./doc/my-number-box-button.md">加减数字框按钮（my-number-box-btn）</a>
+
+<a href="./doc/my-clock.md">电子时钟（my-clock）</a>

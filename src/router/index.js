@@ -6,6 +6,7 @@ import FiguresPlay from '../pages/figures-play.vue'
 import Switch from '../pages/iswitch.vue'
 import NumberBoxBtn from '../pages/number-box-btn.vue'
 import Panel from '../pages/panel.vue'
+import Clock from '../pages/clock.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +42,11 @@ export default new VueRouter({
         path: '/panel',
         name: 'panel',
         component: Panel
+      },
+      {
+        path: '/clock',
+        name: 'clock',
+        component: Clock
       }
     ]
 })

@@ -5,6 +5,7 @@
         <router-link to="/iswitch">my-switch</router-link>
         <router-link to="/number-box-btn">my-number-box-btn</router-link>
         <router-link to="/panel">my-panel</router-link>
+        <router-link to="/clock">my-clock</router-link>
     </div>
 </template>
 
